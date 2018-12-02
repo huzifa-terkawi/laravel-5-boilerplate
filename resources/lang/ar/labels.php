@@ -19,15 +19,15 @@ return [
         'no'      => 'لا',
         'custom'  => 'مخصص',
         'actions' => 'إجراءات',
-        'active'  => 'Active',
+        'active'  => 'مفعل',
         'buttons' => [
             'save'   => 'حفظ',
             'update' => 'تحديث',
         ],
         'hide'              => 'إخفاء',
-        'inactive'          => 'Inactive',
+        'inactive'          => 'إلغاء التفعيل',
         'none'              => 'لا شيء',
-        'show'              => 'إظاهر',
+        'show'              => 'إظهار',
         'toggle_navigation' => 'تبديل شريط التنقل',
     ],
 
@@ -71,34 +71,34 @@ return [
                     'no_deactivated' => 'لا يوجد أي مستخدمين معطلين',
                     'no_deleted'     => 'لا يوحد أي مستخدمين محذوفين',
                     'roles'          => 'الأدوار',
-                    'social' => 'Social',
+                    'social' => 'حساب وسائل التواصل',
                     'total'          => 'مجموع المستخدم|مجموع المستخدمين',
                 ],
 
                 'tabs' => [
                     'titles' => [
-                        'overview' => 'Overview',
-                        'history'  => 'History',
+                        'overview' => 'نظرة عامة',
+                        'history'  => 'تاريخ',
                     ],
 
                     'content' => [
                         'overview' => [
-                            'avatar'       => 'Avatar',
-                            'confirmed'    => 'Confirmed',
-                            'created_at'   => 'Created At',
-                            'deleted_at'   => 'Deleted At',
-                            'email'        => 'E-mail',
-                            'last_login_at' => 'Last Login At',
-                            'last_login_ip' => 'Last Login IP',
-                            'last_updated' => 'Last Updated',
-                            'name'         => 'Name',
-                            'status'       => 'Status',
-                            'timezone'     => 'Timezone',
+                            'avatar'       => 'الصورة الشخصية',
+                            'confirmed'    => 'مؤكد',
+                            'created_at'   => 'تم الإنشاء بـ',
+                            'deleted_at'   => 'تم الحذف بـ',
+                            'email'        => 'البريد الإلكتروني',
+                            'last_login_at' => 'آخر تسجيل دخول بـ',
+                            'last_login_ip' => 'آخر عنوان IP تم تسجيل الدخول منه',
+                            'last_updated' => 'آخر تحديث',
+                            'name'         => 'الإسم',
+                            'status'       => 'الحالة',
+                            'timezone'     => 'المنطقة الزمنية',
                         ],
                     ],
                 ],
 
-                'view' => 'View User',
+                'view' => 'إظهار المستخدم',
             ],
         ],
     ],
@@ -108,15 +108,15 @@ return [
         'auth' => [
             'login_box_title'    => 'تسجيل الدخول',
             'login_button'       => 'تسجيل الدخول',
-            'login_with'         => 'تسجيل الدخول بواسطة :social_media',
+            'login_with'         => 'تسجيل بـ :social_media',
             'register_box_title' => 'تسجيل',
             'register_button'    => 'تسجيل',
             'remember_me'        => 'تذكرني',
         ],
 
         'contact' => [
-            'box_title' => 'Contact Us',
-            'button' => 'Send Information',
+            'box_title' => 'الإتصال بنا',
+            'button' => 'إرسال البيانات',
         ],
 
         'passwords' => [

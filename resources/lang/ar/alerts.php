@@ -21,24 +21,24 @@ return [
         ],
 
         'users' => [
-            'cant_resend_confirmation' => 'The application is currently set to manually approve users.',
+            'cant_resend_confirmation' => "البرنامج حاليا معد للموافقة على المستخدمين بشكل يدوي.",
             'confirmation_email'  => 'لقد تم إرسال رسالة تأكيد جديدة إلى عنوان البريد الألكتروني الموجود في الملف الشخصي.',
-            'confirmed'              => 'The user was successfully confirmed.',
-            'created'             => 'لقد تم إنشاء المستخدم الجديد بنجاح.',
+            'confirmed'              => "تم تأكيد بريد الكستخدم بنجاح" ,
+            'created'             => ' تم إنشاء مستخدم جديد بنجاح.',
             'deleted'             => 'لقد تم إزالة المستخدم بنجاح.',
             'deleted_permanently' => 'لقد تم حذف المستخدم نهائيا بنجاح.',
             'restored'            => 'لقد تمت استعادة المستخدم بنجاح.',
-            'session_cleared'      => "The user's session was successfully cleared.",
-            'social_deleted' => 'Social Account Successfully Removed',
-            'unconfirmed' => 'The user was successfully un-confirmed',
-            'updated'             => 'لقد تم تعديل المستخدم بنجاح.',
-            'updated_password'    => 'لقد تم تعديل كلمة مرور المستخدم بنجاح.',
+            'session_cleared'      => "تم محي بيانات جلسة المستخدم بنجاح",
+            'social_deleted' => 'تم إزالة حساب موقع التواصل الإجتماعي بنجاح',
+            'unconfirmed' => 'تم إلغاء تأكيد المستخدم بنجاح',
+            'updated'             => ' تم تعديل المستخدم بنجاح.',
+            'updated_password'    => ' تم تعديل كلمة مرور المستخدم بنجاح.',
         ],
     ],
 
     'frontend' => [
         'contact' => [
-            'sent' => 'Your information was successfully sent. We will respond back to the e-mail provided as soon as we can.',
+            'sent' => 'تم إرسال معلوماتك بنجاح سنقوم بالتواصل معك بأقرب وقت ممكن .',
         ],
     ],
 ];

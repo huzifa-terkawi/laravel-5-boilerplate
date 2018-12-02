@@ -18,39 +18,39 @@ return [
             'users' => [
                 'activate'           => 'تفعيل',
                 'change_password'    => 'تغيير كلمة المرور',
-                'clear_session'         => 'Clear Session',
-                'confirm'             => 'Confirm',
+                'clear_session'         => 'محي بيانات الجلسة',
+                'confirm'             => 'تأكيد البريد الإلكتروني',
                 'deactivate'         => 'تعطيل',
                 'delete_permanently' => 'حذف نهائي',
                 'login_as'           => 'تسجيل الدخول كـ :user',
                 'resend_email'       => 'إعادة إرسالة بريد التفعيل',
                 'restore_user'       => 'إستعادة المستخدم',
-                'unconfirm'             => 'Un-confirm',
-                'unlink' => 'Unlink',
+                'unconfirm'             => 'إلغاء تأكيد البريد الإلكتروني',
+                'unlink' => 'إلغاء الإرتباط',
             ],
         ],
     ],
 
     'emails' => [
         'auth' => [
-            'confirm_account' => 'Confirm Account',
-            'reset_password'  => 'Reset Password',
+            'confirm_account' => 'تأكيد الحساب',
+            'reset_password'  => 'إعادة ضبط كلمة السر',
         ],
     ],
 
     'general' => [
         'cancel' => 'إلغاء',
-        'continue' => 'Continue',
+        'continue' => 'متابعة',
 
         'crud' => [
             'create' => 'إنشاء',
             'delete' => 'حذف',
             'edit'   => 'تعديل',
             'update' => 'تحديث',
-            'view'   => 'View',
+            'view'   => 'إظهار',
         ],
 
         'save' => 'حفظ',
-        'view' => 'عرض',
+        'view' => 'إظهار',
     ],
 ];

@@ -33,9 +33,9 @@ return [
             'boilerplate_link'    => 'Laravel 5 Boilerplate',
             'continue'            => 'متابعة',
             'member_since'        => 'عضو منذ',
-            'minutes'             => ' minutes',
+            'minutes'             => 'دقائق',
             'search_placeholder'  => 'بحث...',
-            'timeout'             => 'You were automatically logged out for security reasons since you had no activity in ',
+            'timeout'             => 'تم تسجيل خروجك بشكل إلي لدواعي أمنية لأن الحساب لم يجري أي تفاعل خلال  ',
 
             'see_all' => [
                 'messages'      => 'رؤية جميع الرسائل',
@@ -56,10 +56,10 @@ return [
         ],
 
         'search' => [
-            'empty'      => 'Please enter a search term.',
-            'incomplete' => 'You must write your own search logic for this system.',
-            'title'      => 'Search Results',
-            'results'    => 'Search Results for :query',
+            'empty'      => 'الرجاء إدخال نص البحث.',
+            'incomplete' => 'يجب عليك كتابة نظام البحث الخاص بالرنامج بنفسك.',
+            'title'      => 'نتيجة البحث',
+            'results'    => ':query نتيجة البحث لـ ',
         ],
 
         'welcome' => '<p>هذا هو ثيم CoreUI المصمم من قبل <a href="https://coreui.io/" target="_blank">creativeLabs</a>. هذه مجرد نسخة جردت من الكثير من الأشياء وتركت فقط ال Styles وال Scripts التي تجعلها تعمل بأقل الإمكانيات. يجب عليك تحميل النسخة الكاملة حتى تستطيع إضافة المكونات للوحة تحكمك.
@@ -74,24 +74,24 @@ return [
 
     'emails' => [
         'auth' => [
-            'account_confirmed' => 'Your account has been confirmed.',
-            'error'                   => 'Whoops!',
-            'greeting'                => 'Hello!',
-            'regards'                 => 'Regards,',
-            'trouble_clicking_button' => 'If you’re having trouble clicking the ":action_text" button, copy and paste the URL below into your web browser:',
-            'thank_you_for_using_app' => 'Thank you for using our application!',
+            'account_confirmed' => 'تم تفعيل حسابك.',
+            'error'                   => 'خطأ !',
+            'greeting'                => 'مرحباً بك !',
+            'regards'                 => 'مع كامل الإحترام ,',
+            'trouble_clicking_button' => '":action_text" , قم بنسخ و لصق الرابط بإستخدام المتصفح.إذا واجهتك مشكلة أثناء الضغط على ',
+            'thank_you_for_using_app' => 'شكرا لك لإستخدامك تطبيقنا.',
 
             'password_reset_subject'    => 'رابط إعادة تعيين كلمة المرور',
-            'password_cause_of_email'   => 'You are receiving this email because we received a password reset request for your account.',
-            'password_if_not_requested' => 'If you did not request a password reset, no further action is required.',
+            'password_cause_of_email'   => 'تم تسليم هذا البريد بناءاً على طلبك بإعادة ضبط كلمة السر .',
+            'password_if_not_requested' => 'إذا لم تطلب إعادة ضبط كلمة السر , لا يوجد حاجة لأي إجراء آخر.',
             'reset_password'            => 'إضغط هنا لإعادة تعيين كلمة مرورك',
 
             'click_to_confirm' => 'إضغط هنا لتفعيل account:',
         ],
 
         'contact' => [
-            'email_body_title' => 'You have a new contact form request: Below are the details:',
-            'subject' => 'A new :app_name contact form submission!',
+            'email_body_title' => 'لديك طلب إتصال بنا جديد فيما يلي تفاصيل الطلب :',
+            'subject' => ':app_name طلب إتصال بنا جديد ',
         ],
     ],
 
@@ -125,12 +125,13 @@ return [
         ],
 
         'general' => [
-            'joined'        => 'Joined',
+            'joined'        => 'منضم',
         ],
 
         'user' => [
             'change_email_notice' => 'If you change your e-mail you will be logged out until you confirm your new e-mail address.',
-            'email_changed_notice' => 'You must confirm your new e-mail address before you can log in again.',
+            'change_email_notice' => 'إذا قمت بتغير بريدك سيتم تسجيل خروجك حتى يتم تأكيد اليريد الجديد.',
+            'email_changed_notice' => 'يجب تأكيد البريد الإلكتروني الجديد قبل التمكن من تسجيل الخروج.',
             'profile_updated'  => 'تم تحديث الملف الشخصي بنجاح.',
             'password_updated' => 'تم تحديث كلمة المرور بنجاح.',
         ],
